@@ -1,0 +1,16 @@
+{
+  "name": "Sample",
+  "version": "0.0.1",
+  "authors": [
+    "Artyom Tarakanov <atarakanov@someurl.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}

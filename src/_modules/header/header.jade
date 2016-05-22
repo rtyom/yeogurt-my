@@ -1,0 +1,9 @@
+mixin header(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  div(class=spec.__class)&attributes(attributes)
+   ul
+      each val, index in site.data.menu
+         li
+            a(href=val.link)= val.name
