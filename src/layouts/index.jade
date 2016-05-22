@@ -1,8 +1,22 @@
-extends ../_layouts/base
+extends ../_layouts/_bootstrap
 
-block config
-  //- Correct base url pathing for this page
-  - var baseUrl = '../'
-
-block content
-  p layouts page
+block body
+    .list-group
+      a.list-group-item(href='blog.html') blog.jade
+      a.list-group-item(href='blog.html') bootswatch.jade
+      a.list-group-item(href='carousel.html') carousel.jade
+      a.list-group-item(href='cover.html') cover.jade
+      a.list-group-item(href='dashboard.html') dashboard.jade
+      a.list-group-item(href='jumbotron.html') jumbotron.jade
+      a.list-group-item(href='jumbotron-narrow.html') jumbotron-narrow.jade
+      a.list-group-item(href='justified-nav.html') justified-nav.jade
+      a.list-group-item(href='navbar.html') navbar.jade
+      a.list-group-item(href='navbar-fixed.html') navbar-fixed.jade
+      a.list-group-item(href='navbar-static.html') navbar-static.jade
+      a.list-group-item(href='non-responsive.html') non-responsive.jade
+      a.list-group-item(href='offcanvas.html') offcanvas.jade
+      a.list-group-item(href='sign-in.html') sign-in.jade
+      a.list-group-item(href='starter.html') starter.jade
+      a.list-group-item(href='sticky-footer.html') sticky-footer.jade
+      a.list-group-item(href='sticky-footer-navbar.html') sticky-footer-navbar.jade
+      a.list-group-item(href='theme-template.html') theme-template.jade
